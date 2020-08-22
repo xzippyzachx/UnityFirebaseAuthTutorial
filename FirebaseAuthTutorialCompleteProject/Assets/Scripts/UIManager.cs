@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
 
+    //Screen object variables
     public GameObject loginUI;
     public GameObject registerUI;
 
@@ -33,6 +34,4 @@ public class UIManager : MonoBehaviour
         loginUI.SetActive(false);
         registerUI.SetActive(true);
     }
-
-
 }
