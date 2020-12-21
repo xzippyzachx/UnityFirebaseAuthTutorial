@@ -41,3 +41,6 @@ ehthumbs.db
 Thumbs.db
 serviceAccountKey.json
 google-services.json
+google-services.json.meta
+google-services-desktop.json
+google-services-desktop.json.meta
