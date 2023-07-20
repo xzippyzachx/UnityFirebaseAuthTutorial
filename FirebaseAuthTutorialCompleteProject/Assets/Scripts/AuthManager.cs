@@ -160,7 +160,7 @@ public class AuthManager : MonoBehaviour
             {
                 //User has now been created
                 //Now get the result
-                User = new FirebaseUser(LoginTask.Result.User);
+                User = new FirebaseUser(RegisterTask.Result.User);
 
                 if (User != null)
                 {
