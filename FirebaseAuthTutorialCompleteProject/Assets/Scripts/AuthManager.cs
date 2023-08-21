@@ -105,7 +105,7 @@ public class AuthManager : MonoBehaviour
         {
             //User is now logged in
             //Now get the result
-            User = new FirebaseUser(LoginTask.Result.User);
+            User = LoginTask.Result.User;
             Debug.LogFormat("User signed in successfully: {0} ({1})", User.DisplayName, User.Email);
             warningLoginText.text = "";
             confirmLoginText.text = "Logged In";
@@ -160,7 +160,7 @@ public class AuthManager : MonoBehaviour
             {
                 //User has now been created
                 //Now get the result
-                User = new FirebaseUser(RegisterTask.Result.User);
+                User = RegisterTask.Result.User;
 
                 if (User != null)
                 {
